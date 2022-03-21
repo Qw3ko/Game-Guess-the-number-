@@ -139,7 +139,7 @@ document.getElementById('btnEqual').addEventListener('click', function () {
         let phraseRandom3 = Math.round( Math.random()*3);
         switch (phraseRandom3){
             case 0:
-                answerField.innerText = `` ; 
+                answerField.innerText = `Я и не сомневался\n\u{1F61C}` ; 
                 break;
             case 1:
                 answerField.innerText = `Я всегда угадываю\n\u{1F60E}`;
